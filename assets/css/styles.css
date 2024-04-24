@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 320px;
+  min-width: 280px;
+  width: 100%;
+  box-shadow: 0 0 5px grey;
+  text-align: center;
+  /* padding: 15px; */
+  border-radius: 7%;
+  overflow: hidden;
+}
+
+.photo-user {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  top: -20px;
+}
+
+.user-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  max-width: inherit;
+  min-width: inherit;
+  width: 100%;
+}
+
+.user-position {
+  margin: 10px auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-pay-hour {
+  color: grey;
+  margin: 10px auto;
+}
+
+.user-inform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 1.5;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+.main-inform {
+  background-color: #f9f9f9;
+}
+
+.user-name {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.user-location {
+  color: grey;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.user-describe {
+  color: grey;
+  font-size: 15px;
+  margin: 0 15px 30px;
+  text-align: center;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-cv {
+  font-weight: bold;
+  border: 2px solid #039be6;
+  border-radius: 15px;
+  padding: 10px 70px;
+  color: #039be6;
+  background-color: white;
+}
+
+.btn-offer {
+  font-weight: bold;
+  border: 2px solid #24a8e8;
+  background-color: #24a8e8;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 55px;
+}
+
+.user-status {
+  font-size: 12px;
+  color: #c6c9d6;
+  margin-bottom: 5px;
+}
+
+.circle {
+  margin-left: 5px;
+}
