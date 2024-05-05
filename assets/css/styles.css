@@ -27,7 +27,6 @@ body {
   text-align: center;
   border-radius: 7%;
   overflow: hidden;
-  padding: 8px 10px;
 }
 
 .photo-user {
@@ -59,6 +58,7 @@ body {
   max-width: inherit;
   min-width: inherit;
   width: 100%;
+  padding: 8px 10px;
 }
 
 .user-position {
@@ -79,6 +79,7 @@ body {
   width: inherit;
   background-color: #f9f9f9;
   flex-grow: 1;
+  padding: 8px 10px;
 }
 
 .user-inform {
